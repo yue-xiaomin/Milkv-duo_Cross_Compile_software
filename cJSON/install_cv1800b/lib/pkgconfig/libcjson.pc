@@ -1,0 +1,10 @@
+libdir=/home/yxm/milk-v/CV180x/opensrc/cJSON/build/install_cv1800b/lib
+includedir=/home/yxm/milk-v/CV180x/opensrc/cJSON/build/install_cv1800b/include
+
+Name: libcjson
+Version: 1.7.15
+Description: Ultralightweight JSON parser in ANSI C
+URL: https://github.com/DaveGamble/cJSON
+Libs: -L${libdir} -lcjson
+Libs.private: -lm
+Cflags: -I${includedir} -I${includedir}/cjson

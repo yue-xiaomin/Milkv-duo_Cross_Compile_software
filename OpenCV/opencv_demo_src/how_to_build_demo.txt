@@ -1,0 +1,5 @@
+
+mkdir build
+cd build    
+cmake .. -DCMAKE_C_COMPILER=riscv64-unknown-linux-musl-gcc -DCMAKE_CXX_COMPILER=riscv64-unknown-linux-musl-g++
+make
