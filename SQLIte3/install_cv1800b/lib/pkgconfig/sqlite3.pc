@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/home/yxm/milk-v/CV180x/opensrc/sqlite-autoconf-3420000/build/install_cv1800b
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.42.0
+Libs: -L${libdir} -lsqlite3
+Libs.private: 
+Cflags: -I${includedir}
