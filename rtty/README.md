@@ -10,6 +10,11 @@ stty为服务器运行的程序
 https://github.com/zhaojh329/rttys/blob/master/README_ZH.md
 
 
+
+rtty运行依赖编译的openssl和libev库，需要把对应的lib下面so库安装到开发板才能正常运行
+
+rtty --help
+
 Usage: rtty [option]
     -I, --id=string          Set an ID for the device(Maximum 63 bytes, valid
                              character:letter, number, underline and short line)
