@@ -1,0 +1,14 @@
+user systeminfo
+topic read $SYS/broker/#
+
+user user1
+topic readwrite msg/#
+topic deny $SYS/broker/#
+
+user user2
+topic readwrite msg/#
+topic deny $SYS/broker/#
+
+user user3
+topic readwrite msg/#
+topic deny $SYS/broker/#
